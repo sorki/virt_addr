@@ -9,8 +9,6 @@ import libvirt
 from lxml import etree
 
 if __name__ == "__main__":
-
-    #xmlparser = lxml.etree.XMLParser()
     parser = argparse.ArgumentParser(
         description='Get IP address of a virtual machine')
     parser.add_argument('--system', action='store_true',
